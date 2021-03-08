@@ -7,21 +7,21 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<enter the MSSP offer name>"
+            "defaultValue": "Sentinel Security by AVeS Cyber Security"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<enter the MSSP offer description>"
+            "defaultValue": "Sentinel Security by AVeS Cyber Security"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<enter the MSSP Tenant ID (where your identities reside)>"
+            "defaultValue": "7a7e7df0-db16-40f2-84ed-e3a61fe0ff72"
         },
         "authorizations": {
             "type": "array",
@@ -30,9 +30,9 @@
             },
             "defaultValue": [
                 {
-                    "principalId": "917ba8d6-5c07-4d11-ae26-dccba5df6405",
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "SOC users"
+                    "principalId": "0b70186c-601c-4e13-8928-5d8bfba5b3955",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Sentinel Security"
                 }
             ]
         },
