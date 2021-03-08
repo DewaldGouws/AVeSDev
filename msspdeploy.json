@@ -30,7 +30,7 @@
             },
             "defaultValue": [
                 {
-                    "principalId": "0b70186c-601c-4e13-8928-5d8bfba5b3955",
+                    "principalId": "0b70186c-601c-4e13-8928-5d8bfba5b395",
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
                     "principalIdDisplayName": "Sentinel Security"
                 }
