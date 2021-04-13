@@ -68,7 +68,7 @@
                     "regex": "",
                     "validationMessage": ""
                 },
-                "visible": true
+                "visible": false
             },
             {
                 "name": "dataRetention",
