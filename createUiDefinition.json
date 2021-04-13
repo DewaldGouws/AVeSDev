@@ -64,7 +64,7 @@
                 "defaultValue": 0,
                 "toolTip": "Daily ingestion limit in GBs. This limit doesn't apply to the following tables: SecurityAlert, SecurityBaseline, SecurityBaselineSummary, SecurityDetection, SecurityEvent, WindowsFirewall, MaliciousIPCommunication, LinuxAuditLog, SysmonEvent, ProtectionStatus, WindowsEvent",
                 "constraints": {
-                    "required": false,
+                    "required": true,
                     "regex": "",
                     "validationMessage": ""
                 },
