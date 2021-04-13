@@ -137,7 +137,7 @@
                 "name": "enableDataConnectorsKind",
                 "type": "Microsoft.Common.TextBox",
                 "label": "Enable Data Connectors Kind",
-                "defaultValue": "[\"DNS\",\"WindowsFirewall\",\"SecurityEvents\"]",
+                "defaultValue": "[[\"DNS\",\"WindowsFirewall\",\"SecurityEvents\"]]",
                 "toolTip": "The kind of data connectors that can be deployed via ARM templates are the following: [\"AzureActivityLog\",\"SecurityInsightsSecurityEventCollectionConfiguration\",\"WindowsFirewall\",\"DnsAnalytics\"], Reference: https://docs.microsoft.com/azure/templates/microsoft.operationalinsights/2020-03-01-preview/workspaces/datasources#microsoftoperationalinsightsworkspacesdatasources-object",
                 "constraints": {
                     "required": false,
